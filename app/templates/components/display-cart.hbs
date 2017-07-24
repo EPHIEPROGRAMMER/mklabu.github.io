@@ -1,0 +1,9 @@
+<!-- shorp cart template -->
+  <h2>Your Cart</h2>
+  {{#each shoppingCart.items as |item|}}
+    <div class="shopping-cart">
+      <h4>KSH{{item.cost}}</h4><h5>&nbsp;|&nbsp;</h5><h6>{{item.title}}</h6>
+    </div>
+  {{/each}}
+
+<h3>Cart Total: KSH{{shoppingCart.total}}</h3>
