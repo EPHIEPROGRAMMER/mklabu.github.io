@@ -37,7 +37,7 @@ button {
   color: red;
 }
 .well {
-  background-color: white;
+  background-color: rgb(214, 188, 16);
 }
 .club-list {
   background-image: url('party.jpg');
