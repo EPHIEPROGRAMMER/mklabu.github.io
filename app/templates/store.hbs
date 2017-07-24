@@ -1,6 +1,17 @@
+<div class="container-fluid club-list">
+  <div class="page-header">
+    <marquee direction="left" scrollamount="70" scrolldelay="1000" behavior="scroll">
+  <h1 class="night-clubs">Best night clubs in Kenya</h1>
+</marquee>
+</div>
 
-<div class="col-sm-8">
+  <div class="clubs">
+<div class="col-md-12">
   {{#each model as |product|}}
+  <div class="well well-sm">
     {{product-tile product=product}}
+  </div>
   {{/each}}
+</div>
+</div>
 </div>

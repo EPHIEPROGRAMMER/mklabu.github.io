@@ -29,3 +29,20 @@ button {
   display: flex;
   align-items: baseline;
 }
+.night-clubs {
+  color: rgb(35, 210, 210);
+  text-align: center;
+}
+.night-clubs:hover {
+  color: red;
+}
+.well {
+  background-color: white;
+}
+.club-list {
+  background-image: url('party.jpg');
+  margin-top: 30px;
+}
+.container {
+  margin-top: 150px;
+}
