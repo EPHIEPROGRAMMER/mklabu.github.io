@@ -37,7 +37,7 @@ button {
   color: red;
 }
 .well {
-  background-color: rgb(214, 188, 16);
+  background-color: black;
 }
 .club-list {
   background-image: url('party.jpg');
@@ -46,3 +46,7 @@ button {
 .container {
   margin-top: 150px;
 }
+.map-display {
+    height: 600px;
+    width: 600px;
+  }
