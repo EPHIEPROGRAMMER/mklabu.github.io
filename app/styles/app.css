@@ -1,31 +1,17 @@
 body {
-  padding: 0 20px;
+  background-color: black;
 }
+.parallax {
+  background-image: url(http://at-ph.s3.amazonaws.com/i/story-20150615193037-hennessy.jpg);
+  padding-top: 900px;
+  height: 100%;
+  width: 100%;
 
-img {
-  width: 30%;
-  height: auto;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
 }
-
-img.icon {
-  width: 75px;
-  height: 75px;
-}
-
-button {
-  margin-top: 20px;
-  margin-right: 10px;
-}
-
-.nav-links-padding {
-  padding-top: 25px;
-}
-
-.buttons {
-  display: flex;
-}
-
-.shopping-cart {
-  display: flex;
-  align-items: baseline;
+.intro {
+  text-align: center;
+  color: white;
 }
