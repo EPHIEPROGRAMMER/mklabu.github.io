@@ -50,3 +50,17 @@ button {
     height: 600px;
     width: 600px;
   }
+  .map-btn {
+    height: 35px;
+    width: 135px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 5px;
+  }
+  .map-btn:hover,
+               focus{
+    color: black;
+    background-color: white;
+  }
