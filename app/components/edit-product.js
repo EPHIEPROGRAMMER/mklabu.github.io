@@ -10,7 +10,7 @@ export default Ember.Component.extend({
       var params = {
         title: this.get("title"),
         description: this.get("description"),
-        cost: this.get("cost"),
+        venue: this.get("venue"),
         image: this.get("image")
       };
       this.set('updateProduct', false);

@@ -14,11 +14,10 @@ module.exports = function(environment) {
     },
 
     firebase: {
-        apiKey: "AIzaSyDq1OuXV5cOsID_3GsZVa5jZMwCtNLKfLo",
-      authDomain: "online-shoppiing.firebaseapp.com",
-      databaseURL: "https://online-shoppiing.firebaseio.com",
-      storageBucket: "online-shoppiing.appspot.com",
-
+      apiKey: "AIzaSyAtWOBbSFvYwRvxY5Epf6cUOdInins_3M8",
+  authDomain: "nightlife-6e3a4.firebaseapp.com",
+  databaseURL: "https://nightlife-6e3a4.firebaseio.com",
+     storageBucket: "nightlife-6e3a4.appspot.com",
     },
 
     APP: {

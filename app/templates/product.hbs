@@ -1,7 +1,7 @@
 <!-- this component shows the products together with the dascription and image and also the price..one can rate the products -->
 <h2>{{model.title}}</h2>
 <h3>{{model.description}}</h3>
-<h4>${{model.cost}}</h4>
+<h4>{{model.venue}}</h4>
 <img src="{{model.image}}" alt="{{model.title}}" /><br>
 
 <!-- {{#link-to 'store'}}<button {{action 'addToCart' model}} class="btn btn-success">ADD TO <span class="glyphicon glyphicon-shopping-cart"></span></button>{{/link-to}}
@@ -15,4 +15,4 @@
 <h3>Leave new Feedback</h3>
 {{new-feedback product=model saveFeedback="saveFeedback"}}
 
-{{#link-to 'store'}}<button class="btn btn-info">BACK TO STORE</button>{{/link-to}}
+{{#link-to 'store'}}<button class="btn btn-info">BACK TO CLUBS</button>{{/link-to}}
