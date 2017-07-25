@@ -29,6 +29,7 @@ button {
   display: flex;
   align-items: baseline;
 }
+<<<<<<< HEAD
 .night-clubs {
   color: rgb(35, 210, 210);
   text-align: center;
@@ -45,4 +46,88 @@ button {
 }
 .container {
   margin-top: 150px;
+=======
+@font-face {
+    font-family:'HeydingsCommonIconsRegular';
+    src: url('http://ianfarb.com/random/heydings_icons-webfont.eot');
+    src: url('http://ianfarb.com/random/heydings_icons-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://ianfarb.com/random/heydings_icons-webfont.woff') format('woff'),
+         url('http://ianfarb.com/random/heydings_icons-webfont.ttf') format('truetype'),
+         url('http://ianfarb.com/random/heydings_icons-webfont.svg#HeydingsCommonIconsRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {    margin: 0;
+  padding: 0;}
+
+body   {  background:#e5e5e5;}
+
+.bg {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: .25s;
+  pointer-events: none;
+}
+
+li
+{  list-style:none;
+   }
+
+li a
+    { display:block;
+      float:left;
+      width:20%;
+      padding:25px 0;
+      text-align:center;
+      font-family: 'HeydingsCommonIconsRegular', Helvetida Neue, sans-serif;
+      font-weight:700;
+      letter-spacing:1px;
+      font-size:40px;
+      color:#fff;
+      background:#ccc;
+      text-decoration:none;
+      text-transform:uppercase;
+      text-shadow:2px 2px 0 rgba(0,0,0,.25);
+      transition:.25s;}
+
+li a:hover  {
+      margin:-10px 0 0 0;
+}
+
+.menu
+    {  width:500px;
+       margin:60px auto 0 auto;
+       border-radius:10px;
+       overflow:hidden;}
+
+.menu li:first-child a {  background:#ffca6d !important;}
+.menu li:nth-child(2) a {  background:#ff6d6d !important;}
+.menu li:nth-child(3) a {  background:#6dffb9 !important;}
+.menu li:nth-child(4) a {  background:#6dcaff !important;}
+.menu li:nth-child(5) a {  background:#ec6dff !important;}
+.menu li:nth-child(6) a {  background:#ffffff !important;}
+
+
+.menu li:first-child:hover ~ .bg {
+  background: #ffca6d;
+
+}
+.menu li:nth-child(2):hover ~ .bg {
+  background: #ff6d6d;
+}
+.menu li:nth-child(3):hover ~ .bg {
+  background: #6dffb9;
+}
+.menu li:nth-child(4):hover ~ .bg {
+  background: #6dcaff;
+}
+.menu li:nth-child(5):hover ~ .bg {
+  background: #ec6dff;
+>>>>>>> 4c725920c6d5c2cf0017a29cd669e46bdc79a3cd
 }
