@@ -5,6 +5,7 @@ export default DS.Model.extend({
   image: DS.attr(),
   description: DS.attr(),
   venue: DS.attr(),
+  location:DS.attr(),
   feedbacks: DS.hasMany('feedback', { async: true })
 });
 //the product model with the products attributes
