@@ -6,11 +6,12 @@
 </div>
 
   <div class="clubs">
-<div class="col-md-12">
+    <div class="col-md-12">
   {{#each model as |product|}}
   <div class="well well-sm">
+    {{#link-to 'product' product.id}}<a href="#" class="read-more">Read Descriptions</a>{{/link-to}}
     {{product-tile product=product}}
-  </div>
+</div>
   {{/each}}
 </div>
 </div>

@@ -1,5 +1,30 @@
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
+<style media="screen">
+#nav{
+  background-color: #070b11;
+  }
+
+  .knockout {
+    background: url(https://ak5.picdn.net/shutterstock/videos/552118/thumb/1.jpg) 80px 80px;
+    color: red;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: arial, helvetica;
+    width: 600px;
+    margin: 50px auto;
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+  }
+
+
+
+  #lin ul li {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+}</style>
+
+
+<nav class="navbar navbar-default navbar-fixed-top" id="nav">
+  <div class="container-fluid" id="nav">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -8,15 +33,28 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <h3>{{#link-to 'index'}}<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQRvnfFDuV0ariBPhh5W6CAq_0B1ynDeVzioH3KYQjgsZBz2Buf" class="icon" alt="Scooter Matt's Clogs Icon">M-klabu{{/link-to}}</h3>
+<!-- #################################### -->
+
+
+
+
+
+  <!-- ######################################     -->
+
+      <div class="knockout" id="mk">{{#link-to 'index'}}M-klabu{{/link-to}}</div>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <div class="collapse navbar-collapse" id="lin">
       <ul class="nav navbar-nav navbar-right nav-links-padding">
-        <li>{{#link-to 'store'}}Clubs {{/link-to}} </li>
-        <li>{{#link-to 'admin'}}Admin {{/link-to}} </li>
-        <li>{{#link-to 'contact'}}Contact us {{/link-to}} </li>
+
+        <li>{{#link-to 'store'}}<h1>Clubs </h1>{{/link-to}} </li>
+
+
+           <li>{{#link-to 'contact'}}<h1>Shop</h1>{{/link-to}} </li>
+           <li>{{#link-to 'contact'}}<h1>Contact</h1>{{/link-to}} </li>
+
+
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
