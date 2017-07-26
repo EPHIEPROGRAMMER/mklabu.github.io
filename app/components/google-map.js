@@ -1,3 +1,4 @@
+import Ember from 'ember';
 export default Ember.Component.extend({
   map: Ember.inject.service('google-map'),
 
@@ -11,4 +12,4 @@ export default Ember.Component.extend({
       this.get('map').findMap(container, options);
     }
   }
-})
+});

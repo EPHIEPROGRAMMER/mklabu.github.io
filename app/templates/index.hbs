@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <style>
 body {
 background-color: black;
@@ -6,7 +5,7 @@ background-color: black;
 .parallax {
 background-image: url(http://at-ph.s3.amazonaws.com/i/story-20150615193037-hennessy.jpg);
 opacity: 0.5;
-padding-top: 400px;
+padding-top: 300px;
 height: 100%;
 width: 100%;
 background-attachment: fixed;
@@ -22,15 +21,17 @@ padding-bottom: 500px;
 padding-left: 100px;
 padding-right: 100px;
 }
-.image{
-  display: inline;
-  width: 50%;
-}
+
 h1 {
   text-align: center;
   color: white;
   font-size: 40px;
   font-family: cursive;
+}
+h2 {
+  font-family: sans-serif;
+
+  font-size: 40px;
 }
 button {
   background-color: inherit;
@@ -38,38 +39,112 @@ button {
   color: white;
   font-size: 40px;
 }
-</style>
-=======
-<style media="screen">
-body{background-image: url("http://cdn.wallpapersafari.com/47/40/GgvzpA.jpg");
+.img1 {
+  background-image: url(http://bestanimations.com/Music/MirrorBalls/disco-ball-animated-gif-18.gif);
+  padding-bottom: 200px;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  color: white;
+}
+.img1:hover {
+  transform: scale(1.1);
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  color: white;
+}
+.club {
+  color: white;
+  text-align: center;
+}
 
+.img2 {
+  background-image: url(https://cdn.dribbble.com/users/599768/screenshots/3032027/map-icon-bar.gif);
+  padding-bottom: 200px;
+  background-position: top;
+
+  background-size: contain;
+  position: relative;
+}
+.map {
+  color: white;
+}
+.img2:hover {
+      transform: scale(1.1);
+      opacity: 0.5;
+      filter: alpha(opacity=50);
+}
+
+.map {
+  visibility: visible;
+  text-align: center;
+}
+.img3 {
+  background-image: url(https://www.santorini-view.com/files/temp/a69835070cac098ef1ae5f5caa9b7730.jpg);
+  padding-bottom: 200px;
+
+  background-position: bottom;
+}
+.img3:hover {
+  transform: scale(1.1);
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 
 }
->>>>>>> 39442a409213656a434b0219dd4f2ef934e18ac5
-
 </style>
 
 
-<<<<<<< HEAD
+
+
+<div class="container-fluid">
 <div class="parallax">
 <div class="intro">
 <p> M Klabu app gives you the latest reviews on major clubs in Nairobi and latest news on events, drink specials and special events</p>
 <p></p>
-<button>Reviews</button>
+
 </div>
 </div>
+
+
+
 <div class="container">
-  <h1>Clubs</h1>
-<div class="image">
-    <img src="https://ndchannel.files.wordpress.com/2011/07/ham5107.jpg" />
-    <img src="assets/images/havana.jpg" />
+  <a href="store">
+<div class="img1">
+  <h2><div class="club">Clubs</div></h2>
 </div>
+</a>
+
+
+<a href="categories">
+  <div class="img3">
+    <h2><div class="club">Categories</div></h2>
+  </div>
+</a>
+
+<a href="https://www.google.com/search?q=best+clubs+in+nairobi&npsic=0&rflfq=1&rlha=0&rllag=-1273982,36813403,1424&tbm=lcl&ved=0ahUKEwictbLnzqbVAhWiHsAKHUvsDvgQtgMIKQ&tbs=lrf:!2m4!1e17!4m2!17m1!1e2!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:9&rldoc=1#rlfi=hd:;si:;mv:!1m3!1d17056.43261574899!2d36.812550367272934!3d-1.2708851562347472!3m2!1i1500!2i821!4f13.1">
+<div class="img2">
+<h2><div class="map">Maps</div></h2>
 </div>
-=======
+</a>
+</div>
+
+<!-- <div class="col-md-6b">
+    <div class="img2"><img src="http://www.hangout.co.ke/wp-content/uploads/bfi_thumb/sky-6c3g9wq4i28yq9vag485gyp404hfjyg7u68ywgxw1nv.jpg" /></div>
+</div> -->
+    <!-- <img src="https://afktravel.com/wp-content/uploads/2016/01/lagos-nightclub-normal.jpg" />
+    <img src="https://eatout2.scdn5.secure.raxcdn.com/images/restaurant_gallery/3749-728-1450168853.jpg" />
+    <img src="https://afktravel.com/wp-content/uploads/2016/01/lagos-nightclub-normal.jpg" /> -->
+
+</div>
+
+
+
 <body>
   <footer>  {{#link-to 'admin'}}Admin {{/link-to}}</footer>
 </body>
 
 
 <!-- this displays the home page -->
->>>>>>> 39442a409213656a434b0219dd4f2ef934e18ac5
