@@ -1,53 +1,57 @@
-<style media="screen">
-#ju{background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ2jaU9Aq_wC75SRQh46xrIGnpFN9ggSh5wj6oRqHCF-T52NJT-");
-background-size: auto 100%;
+<style>
+body {
+background-color: black;
+}
+.parallax {
+background-image: url(http://at-ph.s3.amazonaws.com/i/story-20150615193037-hennessy.jpg);
+opacity: 0.5;
+padding-top: 400px;
+height: 100%;
+width: 100%;
+background-attachment: fixed;
+background-size: cover;
+position: relative;
+}
+.intro {
+text-align: center;
 color: white;
+font-size: 40px;
+font-family: cursive;
+padding-bottom: 500px;
+padding-left: 100px;
+padding-right: 100px;
 }
-/*end of jumbotron*/
-    #jum{border-right: thick solid #ff0000;
-        border-bottom: thick solid #ffffff;
-        border-top: thick solid #ffffff;
-        border-left: thick solid #ff0000;
-    background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQBEwDzlPN_V_MWeMnexjLwSu2riRTisscT8Ezkhp92urJQ7hjK");
-background-size: auto 100%;
+.image{
+  display: inline;
+  width: 50%;
 }
-/*end of DIV one*/
-
-
-#yy{border-right: thick solid #ff0000;
-    border-top: thick solid #ffffff;
-    border-bottom: thick solid #ffffff;
-    background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQBEwDzlPN_V_MWeMnexjLwSu2riRTisscT8Ezkhp92urJQ7hjK");
-background-size: auto 100%;
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-family: cursive;
 }
-/*end of DIV two*/
+button {
+  background-color: inherit;
+  border-color: yellow;
+  color: white;
+  font-size: 40px;
+}
 </style>
 
 
 
-<div class="jumbotron" id="ju">
-    <div class="row">
-        <div class="col-sm-6" id="jum">
-
-
-  <h1>M-klabu</h1>
-  <p>Get in touch with the best madondo</p>
-  {{#link-to 'store'}}<button class='btn btn-success'>View Kibanda</button>{{/link-to}}
-  </div>
-  <div class="col-sm-6" id="yy">
-      <h1>M-klabu</h1>
-      <p>Connects you with world class delicacies</p>
-      {{#link-to 'contact'}}<button class='btn btn-success'>Contact Us</button>{{/link-to}}
-  </div>
-  </div>
+<div class="parallax">
+<div class="intro">
+<p> M Klabu app gives you the latest reviews on major clubs in Nairobi and latest news on events, drink specials and special events</p>
+<p></p>
+<button>Reviews</button>
 </div>
-<ul class="menu">
-  <li><a href="#">m</a></li>
-  <li><a href="#">k</a></li>
-  <li><a href="#">l</a></li>
-  <li><a href="#">a</a></li>
-  <li><a href="#">b</a></li>
-  <li><a href="#">u</a></li>
-  <li class="bg"></li>
-</ul>
-<!-- this displays the home page -->
+</div>
+<div class="container">
+  <h1>Clubs</h1>
+<div class="image">
+    <img src="https://ndchannel.files.wordpress.com/2011/07/ham5107.jpg" />
+    <img src="assets/images/havana.jpg" />
+</div>
+</div>
