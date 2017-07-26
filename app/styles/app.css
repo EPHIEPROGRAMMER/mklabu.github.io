@@ -41,7 +41,7 @@ button {
   background-color: white;
 }
 .club-list {
-  background-image: url('party.jpg');
+  background-image: url('https://wallpapersafari.com/night-club-wallpaper/');
   margin-top: 30px;
 }
 .container {
@@ -130,4 +130,13 @@ li a:hover  {
 .menu li:nth-child(5):hover ~ .bg {
   background: #ec6dff;
 >>>>>>> 4c725920c6d5c2cf0017a29cd669e46bdc79a3cd
+}
+
+
+#logo{
+  width: auto;
+}
+
+#nav{
+  background-color: #070b11;
 }

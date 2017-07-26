@@ -11,7 +11,8 @@ export default Ember.Component.extend({
         title: this.get("title"),
         description: this.get("description"),
         venue: this.get("venue"),
-        image: this.get("image")
+        image: this.get("image"),
+      
       };
       this.set('updateProduct', false);
       this.sendAction('update', product, params);
