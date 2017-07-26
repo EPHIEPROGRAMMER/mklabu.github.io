@@ -6,12 +6,8 @@ export default Ember.Route.extend({
     return this.store.findRecord('product', params.product_id);
   },
   actions: {
-    addToCart(item) {
-      this.get('shoppingCart').add(item);
-    },
-    removeFromCart(item) {
-      this.get('shoppingCart').remove(item);
-    },
+
+    
     saveFeedback(params) {
       var newFeedback = this.store.createRecord('feedback', params);
       var product = params.product;

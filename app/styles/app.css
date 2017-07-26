@@ -1,5 +1,7 @@
 body {
   padding: 0 20px;
+  background: #444;
+  color: white;
 }
 
 img {
@@ -46,6 +48,7 @@ button {
 }
 .container {
   margin-top: 150px;
+<<<<<<< HEAD
 =======
 @font-face {
     font-family:'HeydingsCommonIconsRegular';
@@ -131,3 +134,27 @@ li a:hover  {
   background: #ec6dff;
 >>>>>>> 4c725920c6d5c2cf0017a29cd669e46bdc79a3cd
 }
+=======
+}
+.map-display {
+    height: 600px;
+    width: 1100px;
+  }
+  .map-btn {
+    height: 35px;
+    width: 135px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 5px;
+  }
+  .map-btn:hover,
+               focus{
+    color: black;
+    background-color: white;
+  }
+  .read-more {
+    color: cyan;
+  }
+>>>>>>> 16f5d1129cf281362cb5c360a8108ab6afc64832

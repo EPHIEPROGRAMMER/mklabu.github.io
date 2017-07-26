@@ -1,0 +1,6 @@
+{{#if show}}
+<h3>{{product.description}}</h3><br>
+<a href="#" {{action 'hideDescription'}} class="read-more">Hide Descriptions</a>
+{{else}}
+<a href="#" {{action 'showDescription'}} class="read-more">Read Descriptions</a>
+{{/if}}
