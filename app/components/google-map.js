@@ -11,4 +11,4 @@ export default Ember.Component.extend({
       this.get('map').findMap(container, options);
     }
   }
-})
+});
