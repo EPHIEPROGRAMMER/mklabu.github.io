@@ -12,7 +12,9 @@ export default Ember.Component.extend({
         description: this.get("description"),
         venue: this.get("venue"),
         image: this.get("image"),
-      
+        latitude: this.get('latitude'),
+        longitude: this.get('longitude')
+
       };
       this.set('updateProduct', false);
       this.sendAction('update', product, params);
