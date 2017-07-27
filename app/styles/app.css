@@ -44,7 +44,7 @@ button {
 }
 .club-list {
   background-image: url('https://wallpapersafari.com/night-club-wallpaper/');
-  margin-top: 30px;
+  margin-top: 100px;
 }
 .container {
   margin-top: 150px;
@@ -70,3 +70,6 @@ button {
   .read-more {
     color: cyan;
   }
+.description {
+  margin-top: 150px;
+}
