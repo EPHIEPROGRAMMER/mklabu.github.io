@@ -29,7 +29,7 @@ button {
   display: flex;
   align-items: baseline;
 }
-<<<<<<< HEAD
+
 .night-clubs {
   color: rgb(35, 210, 210);
   text-align: center;
@@ -68,6 +68,7 @@ animation: AnimationName 14s ease infinite;
 }
 .container {
   margin-top: 150px;
+<<<<<<< HEAD
 }
 
 
@@ -77,6 +78,8 @@ animation: AnimationName 14s ease infinite;
 
 #nav{
   background-color: #070b11;
+=======
+>>>>>>> 39442a409213656a434b0219dd4f2ef934e18ac5
 }
 .map-display {
     height: 600px;
