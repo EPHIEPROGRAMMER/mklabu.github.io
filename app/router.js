@@ -12,6 +12,7 @@ Router.map(function() {
   this.route('admin');
   this.route('contact');
   this.route('descriptions');
+  this.route('events');
 });
 
 export default Router;
