@@ -16,6 +16,104 @@ h4 {
   font-family: fantasy;
 
 }
+.brand {
+  color: white;
+  width: 60px;
+}
+h9 {
+  font-size: 30px;
+  color: white;
+  visibility: hidden;
+  font-family: cursive;
+}
+.knockout:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+.knockout:hover h9{
+  visibility: visible;
+}
+#myFooter {
+	background-color: #090c11;
+	color:white;
+}
+
+#myFooter .footer-copyright{
+	background-color: #383737;
+	padding-top:3px;
+	padding-bottom:3px;
+	text-align: center;
+}
+
+#myFooter .footer-copyright p{
+	margin:10px;
+	color: #ccc;
+}
+
+#myFooter ul{
+	list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+
+}
+
+#myFooter h5{
+	font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter a{
+	color:#d2d1d1;
+	text-decoration: none;
+}
+
+#myFooter a:hover, #myFooter a:focus{
+	text-decoration: none;
+	color:white;
+}
+
+#myFooter .myCols{
+	text-align: center;
+}
+
+#myFooter .social-networks{
+	text-align: center;
+
+}
+
+#myFooter .social-networks a{
+    font-size: 32px;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #f9f9f9;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover{
+	text-decoration: none;
+
+}
+
+#myFooter .facebook:hover{
+	color:#0077e2;
+}
+
+#myFooter .google:hover{
+	color:#ef1a1a;
+}
+
+#myFooter .twitter:hover{
+	color: #00aced;
+}
+
+@media screen and (max-width: 767px){
+	#myFooter {
+		text-align: center;
+	}
+}
   </style>
 
 <div class="head">
@@ -38,7 +136,8 @@ h4 {
   <!-- ######################################     -->
       <div class="knockout">
         {{#link-to 'index'}}
-        <img src="https://cdn.shutterstock.com/shutterstock/videos/17834887/thumb/8.jpg">
+      <h9>M-Klabu</h9><img class="icon icons8-Cocktail" width="48" height="48" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAEJ0lEQVRoQ+2Zy28bVRTGvzN+jB07ThxKBEFNXVUlVYsUJ0ArUKOEv4BUgqRdpSwRgjgLlqjJmsU0sEWi3bURD7MG0QQqpLiodhZFpRTqtlKpGpqQF56ZOL7oztjYie0M47l2FMl3Y0u+99zvd15zbBP2+aJ9rh9NgL2O4J5FgN3qOg118xPo6jHout9whNebgdd3Gz7PB3Ti0fX/45w9AWA3n01ibTVqCGxtA8LnTa3Ll4C1FfN9MJSklxf7rSAaDsB+CmWwqfnQeQgIhwGXG+j4wtS59BawlQWWl4En942I0GtrLbtBNBTgP8+/+DHQ8QqwNgmwje0AFABaJ4Gln4E7HwKtoRT1L/ZVg2gYgJHzfz390fD8kcuAKwJk75kQ4cv5FBozxbsPA1tp4PcxMxIHnhmoVhONAyjkfU8UcLcBoakiBBfMFwcqiF+9AGRXgF9Tu0ahcQA8930+Hw4eNcXyVClAlOYH9zwXz1OLr4e/AVqmai00DmBOZugeB7onrBrL9s8fKMCDadCgVlHrrgBKQrtEwJi9Gyvvfu8HGVL3QUj+h5U3vDAC9E6Xf+YIIMnaoeuzROh1CvHufBCuFgZXZ7bcVOgEcOpLwNNWLOzSFFJVlV5fNR92O5ZlCikJPUpgSacAo3cH1g88SgTdPRKA3HZzp78FQi+Znae0O4kqYuWGGiNGihOIDvWXJ+cSfZ1Slx9Sa6ZoKtIDHJ8tttHS7vTHeXFt9G7vR38+v3DnOScQO8+6BhYhf6WVP8g4xNMbYh9kDMPt/0BOATgkAoK6NPivPQY6XOWjxNIysHgf8MhVc7+gwbIGSsWu4+0oQXJcD9ym77PvIR1dzQ9z7+RT6PPiMGcxQtQEwA9tYGQSoAvOosCmWm5d/w7a5qdQtWPGcMeXR1bhk29D9rxf13F6HSOzBBqsBYKBzQUxM1TL2ZraaKVDvB424E0TqM2OEAa2EoAeIcT/tnNut722aqDUUAZnh3Jg1+wIkUBv+HEl3zPtnKy+t2YA+/XApgKYmRQju2jFEYAJMcpbq9WosRDAVfMrpODlGCCDs5Et5FLV6oHnvQtS1I8racHaDXOOAfKpNAzQ15UFsjMBzMTrIV4YADe0jtGLBIyXCmXAdBBXY/USLxSgQj3ULe9LHSIkhQoG+ajxuP+4MWocubkQFtnvq0VRKAC/5GJCY/w1dlIWbrsShPBLmgA2K74ZgZ0Oa6ZQM4VseqCZQg4dJrQLKUkWoU39HtfEPN7DE31Ulwm0bqOEMq/FifCmcQFDPHZKPuPQwZbHhURAmdeGCUwBUWTbjYylSaLY+KvyN5ZKatxQE4CSZO1SVh9kjIbAcsNlwneKYSwNkuJEbDbn9s5N9NHefalX5rWUgF+rU7GTctX/vewEo6YI2Lmg3nubAPX2sJX9fR+BfwEQgYhA5MtVVQAAAABJRU5ErkJggg==">
+
         {{/link-to}}
       </div>
     </div>
@@ -48,7 +147,7 @@ h4 {
       <ul class="nav navbar-nav navbar-right nav-links  ">
 
         <li>{{#link-to 'store'}}<h4>Clubs </h4>{{/link-to}} </li>
-        <li>{{#link-to 'contact'}}<h4>Categories</h4>{{/link-to}} </li>
+        <li>{{#link-to 'categories'}}<h4>Categories</h4>{{/link-to}} </li>
 
 
       </ul>
@@ -56,4 +155,20 @@ h4 {
   </div><!-- /.container-fluid -->
 </nav>
 </div>
+<div class="ping">
   {{outlet}}
+</div>
+<!-- <body>
+  <footer>  {{#link-to 'admin'}}Admin {{/link-to}}</footer>
+</body> -->
+<p></p>
+<br>
+<footer id="myFooter">
+
+    <div class="social-networks">
+
+        <a href='https://github.com/EPHIEPROGRAMMER/mklabu.github.io' class="github"><i class="fa fa-github"></i></a>
+
+    </div>
+
+</footer>

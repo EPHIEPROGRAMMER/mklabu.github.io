@@ -5,7 +5,7 @@ background-color: black;
 .parallax {
 background-image: url(http://at-ph.s3.amazonaws.com/i/story-20150615193037-hennessy.jpg);
 opacity: 0.5;
-padding-top: 300px;
+padding-top: 500px;
 height: 100%;
 width: 100%;
 background-attachment: fixed;
@@ -17,7 +17,7 @@ text-align: center;
 color: white;
 font-size: 40px;
 font-family: cursive;
-padding-bottom: 500px;
+padding-bottom: 600px;
 padding-left: 100px;
 padding-right: 100px;
 }
@@ -92,7 +92,106 @@ button {
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+}
+#myFooter {
+	background-color: #090c11;
+	color:white;
+}
 
+#myFooter .footer-copyright{
+	background-color: #383737;
+	padding-top:3px;
+	padding-bottom:3px;
+	text-align: center;
+}
+
+#myFooter .footer-copyright p{
+	margin:10px;
+	color: #ccc;
+}
+
+#myFooter ul{
+	list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+
+}
+
+#myFooter h5{
+	font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter a{
+	color:#d2d1d1;
+	text-decoration: none;
+}
+
+#myFooter a:hover, #myFooter a:focus{
+	text-decoration: none;
+	color:white;
+}
+
+#myFooter .myCols{
+	text-align: center;
+}
+
+#myFooter .social-networks{
+	text-align: center;
+
+}
+
+#myFooter .social-networks a{
+    font-size: 32px;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #f9f9f9;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover{
+	text-decoration: none;
+
+}
+
+#myFooter .facebook:hover{
+	color:#0077e2;
+}
+
+#myFooter .google:hover{
+	color:#ef1a1a;
+}
+
+#myFooter .twitter:hover{
+	color: #00aced;
+}
+
+@media screen and (max-width: 767px){
+	#myFooter {
+		text-align: center;
+	}
+}
+
+
+
+/* CSS used for positioning the footers at the bottom of the page. */
+/* You can remove this. */
+
+
+
+
+.content{
+	flex: 1 0 auto;
+	-webkit-flex: 1 0 auto;
+	min-height: 200px;
+}
+
+#myFooter{
+	flex: 0 0 auto;
+    -webkit-flex: 0 0 auto;
 }
 </style>
 
@@ -102,7 +201,7 @@ button {
 <div class="container-fluid">
 <div class="parallax">
 <div class="intro">
-<p> M Klabu app gives you the latest reviews on major clubs in Nairobi and latest news on events, drink specials and special events</p>
+<p> M Klabu ensures you enjoy the night life at a nice spot showing you latest reviews on clubs in Nairobi</p>
 <p></p>
 
 </div>
@@ -124,7 +223,7 @@ button {
   </div>
 </a>
 
-<a href="https://www.google.com/search?q=best+clubs+in+nairobi&npsic=0&rflfq=1&rlha=0&rllag=-1273982,36813403,1424&tbm=lcl&ved=0ahUKEwictbLnzqbVAhWiHsAKHUvsDvgQtgMIKQ&tbs=lrf:!2m4!1e17!4m2!17m1!1e2!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:9&rldoc=1#rlfi=hd:;si:;mv:!1m3!1d17056.43261574899!2d36.812550367272934!3d-1.2708851562347472!3m2!1i1500!2i821!4f13.1">
+<a href="https://www.google.co.ke/maps/search/best+clubs+in+nairobi/@-1.2777343,36.8113282,14.86z?hl=en&hl=en">
 <div class="img2">
 <h2><div class="map">Maps</div></h2>
 </div>
@@ -142,9 +241,6 @@ button {
 
 
 
-<body>
-  <footer>  {{#link-to 'admin'}}Admin {{/link-to}}</footer>
-</body>
 
 
 <!-- this displays the home page -->
